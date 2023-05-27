@@ -31,7 +31,6 @@ function ContactComponent() {
     e.preventDefault();
 
     try {
-      // Send form data to server
       const response = await fetch('https://getform.io/f/573f957b-978b-4c11-9aa8-06a3c178ce1d', {
         method: 'POST',
         headers: {
