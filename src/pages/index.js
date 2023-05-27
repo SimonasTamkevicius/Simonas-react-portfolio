@@ -5,7 +5,6 @@ import HomeComponent from '@/components/HomeComponent';
 import AboutComponent from '@/components/AboutComponent';
 import ProjectsComponent from '@/components/ProjectsComponent';
 import ContactComponent from '@/components/ContactComponent';
-import Link from 'next/link';
 import HomeAboutTransition from '@/components/HomeAboutTransition';
 
 export default function Home() {

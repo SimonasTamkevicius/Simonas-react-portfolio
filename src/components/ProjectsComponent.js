@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import ProjectIcon from '/public/projectsIcon.jpeg';
 import FireflyghtThumbnail from '/public/FireflyghtThumbnail.png';
 import MVThumbnail from '/public/moleculeViewerThumbnail.png';
 import F1Thumbnail from '/public/f1WebsiteThumbnail.png';

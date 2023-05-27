@@ -1,7 +1,5 @@
 import React, { useEffect } from 'react';
-import Image from 'next/image';
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
-import aboutIcon from '/public/abouticon.jpeg';
 import { useInView } from 'react-intersection-observer';
 import { motion, useAnimation } from 'framer-motion';
 
