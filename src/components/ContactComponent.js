@@ -138,14 +138,14 @@ function ContactComponent() {
                 onChange={(e) => setMessage(e.target.value)}
               />
               <div className='flex justify-end w-full'>
-                <Button
+                <button
                   variant="contained"
                   type='submit'
-                  className='px-2 py-1 mt-5 text-sm font-medium text-white bg-cyan-500 rounded-md hover:bg-cyan-600'
+                  className='px-2 py-1 mt-5 text-lg text-white bg-cyan-500 rounded-md hover:bg-cyan-600'
                   style={{ minWidth: '6rem', minHeight: '2.5rem' }}
                 >
                   Submit
-                </Button>
+                </button>
               </div>
             </form>
           </div>
