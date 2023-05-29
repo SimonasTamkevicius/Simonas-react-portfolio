@@ -140,7 +140,6 @@ function ContactComponent() {
               <div className='flex justify-end w-full'>
                 <Button
                   variant="contained"
-                  endIcon={<SendIcon />}
                   type='submit'
                   className='px-2 py-1 mt-5 text-sm font-medium text-white bg-cyan-500 rounded-md hover:bg-cyan-600'
                   style={{ minWidth: '6rem', minHeight: '2.5rem' }}
