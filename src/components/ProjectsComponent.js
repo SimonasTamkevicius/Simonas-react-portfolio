@@ -136,10 +136,9 @@ function ProjectsComponent() {
                   <div className='max-w-m rounded overflow-hidden shadow-lg'>
                     <Image className='w-full h-60 md:w-full md:h-80' src={EcommerceThumbnail} alt='Fireflyght' />
                     <div className='px-6 py-4 bg-blue-100'>
-                      <div className='font-bold text-xl mb-2'>Fireflyght</div>
+                      <div className='font-bold text-xl mb-2'>Ecommerce React Website</div>
                       <p className='text-gray-700 text-base'>
-                        Fireflyght is a game modeled after the uber popular mobile game Flappy Bird. I created this game
-                        in pygame with the aim of exploring the basics of game development.
+                      This project is a React e-commerce website that utilizes context for a seamless shopping experience. With a robust cart system, it aims to provide an intuitive online shopping experience.
                       </p>
                     </div>
                   </div>
