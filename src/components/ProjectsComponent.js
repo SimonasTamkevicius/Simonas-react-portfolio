@@ -4,6 +4,7 @@ import Link from 'next/link';
 import FireflyghtThumbnail from '/public/FireflyghtThumbnail.png';
 import MVThumbnail from '/public/moleculeViewerThumbnail.png';
 import F1Thumbnail from '/public/f1WebsiteThumbnail.png';
+import EcommerceThumbnail from '/public/ecommerce-thumbnail.png';
 import { useInView } from 'react-intersection-observer';
 import { motion, useAnimation } from 'framer-motion';
 
@@ -131,9 +132,9 @@ function ProjectsComponent() {
                 animate={controls1}
                 transition={{ duration: 0.85, delay: 0.3 }}
               >
-                <Link href='/Fireflyght'>
+                <a href='https://ecommerce-react-website-six.vercel.app'>
                   <div className='max-w-m rounded overflow-hidden shadow-lg'>
-                    <Image className='w-full h-60 md:w-full md:h-80' src={FireflyghtThumbnail} alt='Fireflyght' />
+                    <Image className='w-full h-60 md:w-full md:h-80' src={EcommerceThumbnail} alt='Fireflyght' />
                     <div className='px-6 py-4 bg-blue-100'>
                       <div className='font-bold text-xl mb-2'>Fireflyght</div>
                       <p className='text-gray-700 text-base'>
@@ -142,7 +143,7 @@ function ProjectsComponent() {
                       </p>
                     </div>
                   </div>
-                </Link>
+                </a>
               </motion.div>
             </div>
           </div>
