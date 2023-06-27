@@ -7,6 +7,7 @@ import F1Thumbnail from '/public/f1WebsiteThumbnail.png';
 import EcommerceThumbnail from '/public/ecommerce-thumbnail.png';
 import { useInView } from 'react-intersection-observer';
 import { motion, useAnimation } from 'framer-motion';
+import blogSiteThumbnail from'/public/blogSite.png';
 
 function ProjectsComponent() {
   const [sectionRef, inView] = useInView({
@@ -134,7 +135,7 @@ function ProjectsComponent() {
               >
                 <a href='https://ecommerce-react-website-six.vercel.app'>
                   <div className='max-w-m rounded overflow-hidden shadow-lg'>
-                    <Image className='w-full h-60 md:w-full md:h-80' src={EcommerceThumbnail} alt='Fireflyght' />
+                    <Image className='w-full h-60 md:w-full md:h-80' src={EcommerceThumbnail} alt='Ecommerce Site' />
                     <div className='px-6 py-4 bg-blue-100'>
                       <div className='font-bold text-xl mb-2'>Ecommerce React Website</div>
                       <p className='text-gray-700 text-base'>
@@ -177,14 +178,13 @@ function ProjectsComponent() {
                 animate={controls3}
                 transition={{ duration: 0.85, delay: 0.3 }}
               >
-                <Link href='/F1Grandstand'>
+                <Link href='https://blog-website-tqqn.onrender.com/'>
                   <div className='max-w-m rounded overflow-hidden shadow-lg'>
-                    <Image className='w-full h-60 md:w-full md:h-80' src={F1Thumbnail} alt='F1 Grandstand' />
+                    <Image className='w-full h-60 md:w-full md:h-80' src={blogSiteThumbnail} alt='Blog Website' />
                     <div className='px-6 py-4 bg-red-100'>
-                      <div className='font-bold text-xl mb-2'>F1 Grandstand</div>
+                      <div className='font-bold text-xl mb-2'>Blog Website</div>
                       <p className='text-gray-700 text-base'>
-                        F1 Grandstand is a website all about one of the most popular motorsports in the world, Formula 1.
-                        It gives an overview of what the sport is, the current F1 season, and some history as well!
+                        This is a full stack blog website where the user can view the blog posts and the administrator can login and create posts.
                       </p>
                     </div>
                   </div>
