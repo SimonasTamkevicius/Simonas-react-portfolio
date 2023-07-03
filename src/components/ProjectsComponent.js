@@ -133,10 +133,10 @@ function ProjectsComponent() {
                 animate={controls1}
                 transition={{ duration: 0.85, delay: 0.3 }}
               >
-                <a href='https://ecommerce-react-website-six.vercel.app'>
+                <a href='https://ecommerce-react-website-six.vercel.app' target='_blank'>
                   <div className='max-w-m rounded overflow-hidden shadow-lg'>
                     <Image className='w-full h-60 md:w-full md:h-80' src={EcommerceThumbnail} alt='Ecommerce Site' />
-                    <div className='px-6 py-4 bg-blue-100'>
+                    <div className='px-6 py-4 bg-blue-50'>
                       <div className='font-bold text-xl mb-2'>Ecommerce React Website</div>
                       <p className='text-gray-700 text-base'>
                       This project is a React e-commerce website that utilizes context for a seamless shopping experience. With a robust cart system, it aims to provide an intuitive online shopping experience.
@@ -178,13 +178,13 @@ function ProjectsComponent() {
                 animate={controls3}
                 transition={{ duration: 0.85, delay: 0.3 }}
               >
-                <Link href='https://blog-website-app-15143c866564.herokuapp.com/'>
+                <Link href='https://blog-website-app-15143c866564.herokuapp.com/' target='_blank'>
                   <div className='max-w-m rounded overflow-hidden shadow-lg'>
                     <Image className='w-full h-60 md:w-full md:h-80' src={blogSiteThumbnail} alt='Blog Website' />
-                    <div className='px-6 py-4 bg-red-100'>
+                    <div className='px-6 py-4 bg-gray-200'>
                       <div className='font-bold text-xl mb-2'>Blog Website</div>
                       <p className='text-gray-700 text-base'>
-                        This is a full stack blog website where the user can view the blog posts and the administrator can login and create posts.
+                        This is a full stack blog website where users can view the blog posts, and the administrator can login and create posts effortlessly.
                       </p>
                     </div>
                   </div>
@@ -202,7 +202,7 @@ function ProjectsComponent() {
                 <Link href='/Fireflyght'>
                   <div className='max-w-m rounded overflow-hidden shadow-lg'>
                     <Image className='w-full h-60 md:w-full md:h-80' src={FireflyghtThumbnail} alt='Fireflyght' />
-                    <div className='px-6 py-4'>
+                    <div className='px-6 py-4 bg-blue-200'>
                       <div className='font-bold text-xl mb-2'>Fireflyght</div>
                       <p className='text-gray-700 text-base'>
                         Fireflyght is a game modeled after the uber popular mobile game Flappy Bird. I created this game
