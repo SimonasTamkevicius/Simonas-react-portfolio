@@ -178,7 +178,7 @@ function ProjectsComponent() {
                 animate={controls3}
                 transition={{ duration: 0.85, delay: 0.3 }}
               >
-                <Link href='https://blog-website-tqqn.onrender.com/'>
+                <Link href='https://blog-website-app-15143c866564.herokuapp.com/'>
                   <div className='max-w-m rounded overflow-hidden shadow-lg'>
                     <Image className='w-full h-60 md:w-full md:h-80' src={blogSiteThumbnail} alt='Blog Website' />
                     <div className='px-6 py-4 bg-red-100'>
