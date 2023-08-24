@@ -52,7 +52,7 @@ function NavBar() {
           </Link>
         </li>
         <li>
-          <button className='px-2 py-2 bg-cyan-500 hover:bg-cyan-600 rounded md sm:px-10 sm:text-lg md:text-lg lg:text-xl'>
+          <button className='px-2 py-2 bg-cyan-500 hover:bg-cyan-600 rounded md sm:px-10 sm:text-lg md:text-lg lg:text-xl transition-colors duration-100 ease-in-out'>
             <a
               className='text-md text-white'
             >
