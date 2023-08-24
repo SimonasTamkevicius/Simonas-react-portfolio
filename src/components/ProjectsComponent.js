@@ -133,11 +133,11 @@ function ProjectsComponent() {
                 animate={controls1}
                 transition={{ duration: 0.85, delay: 0.3 }}
               >
-                <a href='https://ecommerce-react-website-six.vercel.app' target='_blank'>
+                <a href='https://ecommerce-bead-store.onrender.com/' target='_blank'>
                   <div className='max-w-m rounded overflow-hidden shadow-lg'>
                     <Image className='w-full h-60 md:w-full md:h-80' src={EcommerceThumbnail} alt='Ecommerce Site' />
                     <div className='px-6 py-4 bg-blue-50'>
-                      <div className='font-bold text-xl mb-2'>Ecommerce React Website</div>
+                      <div className='font-bold text-xl mb-2'>Ecommerce Full Stack React Application</div>
                       <p className='text-gray-700 text-base'>
                       This project is a React e-commerce website that utilizes context for a seamless shopping experience. With a robust cart system, it aims to provide an intuitive online shopping experience.
                       </p>
